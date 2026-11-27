@@ -4,9 +4,9 @@ mode: rule
 log-level: info
 test-url: 'http://www.gstatic.com/generate_204'
 proxies:
-- name: "齐哥优选-2026.11.27-19:42:19-2_1"
+- name: "齐哥优选-2026.11.28-02:13:59-1_1"
   type: vless
-  server: 45.63.56.34
+  server: 144.202.106.129
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -24,9 +24,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_1-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_1-T"
   type: trojan
-  server: 45.63.56.34
+  server: 144.202.106.129
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -45,9 +45,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_2"
+- name: "齐哥优选-2026.11.28-02:13:59-1_2"
   type: vless
-  server: 67.216.198.4
+  server: 45.76.68.133
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -65,9 +65,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_2-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_2-T"
   type: trojan
-  server: 67.216.198.4
+  server: 45.76.68.133
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -86,9 +86,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_3"
+- name: "齐哥优选-2026.11.28-02:13:59-1_3"
   type: vless
-  server: 166.88.33.113
+  server: 149.248.21.0
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -106,9 +106,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_3-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_3-T"
   type: trojan
-  server: 166.88.33.113
+  server: 149.248.21.0
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -127,9 +127,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_4"
+- name: "齐哥优选-2026.11.28-02:13:59-1_4"
   type: vless
-  server: 166.88.33.135
+  server: 45.63.57.12
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -147,9 +147,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_4-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_4-T"
   type: trojan
-  server: 166.88.33.135
+  server: 45.63.57.12
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -168,9 +168,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_5"
+- name: "齐哥优选-2026.11.28-02:13:59-1_5"
   type: vless
-  server: 166.88.33.157
+  server: 107.161.24.195
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -188,9 +188,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_5-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_5-T"
   type: trojan
-  server: 166.88.33.157
+  server: 107.161.24.195
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -209,9 +209,50 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_6"
+- name: "齐哥优选-2026.11.28-02:13:59-1_6"
   type: vless
-  server: 66.132.239.126
+  server: 45.63.94.127
+  port: 8443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_6-T"
+  type: trojan
+  server: 45.63.94.127
+  port: 8443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_7"
+  type: vless
+  server: 144.202.120.41
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -229,9 +270,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_6-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_7-T"
   type: trojan
-  server: 66.132.239.126
+  server: 144.202.120.41
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -250,335 +291,7 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_7"
-  type: vless
-  server: 45.32.65.235
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_7-T"
-  type: trojan
-  server: 45.32.65.235
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_8"
-  type: vless
-  server: 149.28.79.109
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_8-T"
-  type: trojan
-  server: 149.28.79.109
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_9"
-  type: vless
-  server: 166.88.33.147
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_9-T"
-  type: trojan
-  server: 166.88.33.147
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_10"
-  type: vless
-  server: 45.32.87.15
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_10-T"
-  type: trojan
-  server: 45.32.87.15
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_11"
-  type: vless
-  server: 172.235.38.203
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_11-T"
-  type: trojan
-  server: 172.235.38.203
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_12"
-  type: vless
-  server: 104.238.140.120
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_12-T"
-  type: trojan
-  server: 104.238.140.120
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_13"
-  type: vless
-  server: 170.39.227.181
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_13-T"
-  type: trojan
-  server: 170.39.227.181
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_14"
-  type: vless
-  server: 179.255.99.100
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_14-T"
-  type: trojan
-  server: 179.255.99.100
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_15"
+- name: "齐哥优选-2026.11.28-02:13:59-1_8"
   type: vless
   server: 38.244.60.197
   port: 443
@@ -598,7 +311,7 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_15-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_8-T"
   type: trojan
   server: 38.244.60.197
   port: 443
@@ -619,9 +332,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_16"
+- name: "齐哥优选-2026.11.28-02:13:59-1_9"
   type: vless
-  server: 141.98.41.29
+  server: 144.202.122.49
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -639,9 +352,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_16-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_9-T"
   type: trojan
-  server: 141.98.41.29
+  server: 144.202.122.49
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -660,173 +373,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_17"
+- name: "齐哥优选-2026.11.28-02:13:59-1_10"
   type: vless
-  server: 141.98.41.45
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_17-T"
-  type: trojan
-  server: 141.98.41.45
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_18"
-  type: vless
-  server: 205.186.76.187
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_18-T"
-  type: trojan
-  server: 205.186.76.187
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_19"
-  type: vless
-  server: 45.76.79.246
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_19-T"
-  type: trojan
-  server: 45.76.79.246
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_20"
-  type: vless
-  server: 141.98.41.70
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_20-T"
-  type: trojan
-  server: 141.98.41.70
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_21"
-  type: vless
-  server: 45.76.79.201
+  server: 144.202.110.83
   port: 8443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -844,9 +393,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_21-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_10-T"
   type: trojan
-  server: 45.76.79.201
+  server: 144.202.110.83
   port: 8443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -865,9 +414,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_22"
+- name: "齐哥优选-2026.11.28-02:13:59-1_11"
   type: vless
-  server: 141.98.41.124
+  server: 144.202.116.12
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -885,9 +434,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_22-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_11-T"
   type: trojan
-  server: 141.98.41.124
+  server: 144.202.116.12
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -906,9 +455,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_23"
+- name: "齐哥优选-2026.11.28-02:13:59-1_12"
   type: vless
-  server: 205.186.76.251
+  server: 104.238.140.120
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -926,9 +475,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_23-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_12-T"
   type: trojan
-  server: 205.186.76.251
+  server: 104.238.140.120
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -947,9 +496,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_24"
+- name: "齐哥优选-2026.11.28-02:13:59-1_13"
   type: vless
-  server: 141.98.41.109
+  server: 45.63.56.34
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -967,9 +516,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_24-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_13-T"
   type: trojan
-  server: 141.98.41.109
+  server: 45.63.56.34
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -988,9 +537,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_25"
+- name: "齐哥优选-2026.11.28-02:13:59-1_14"
   type: vless
-  server: 141.98.41.20
+  server: 45.77.122.187
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1008,9 +557,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_25-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_14-T"
   type: trojan
-  server: 141.98.41.20
+  server: 45.77.122.187
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1029,7 +578,581 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_26"
+- name: "齐哥优选-2026.11.28-02:13:59-1_15"
+  type: vless
+  server: 45.63.82.161
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_15-T"
+  type: trojan
+  server: 45.63.82.161
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_16"
+  type: vless
+  server: 67.216.198.4
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_16-T"
+  type: trojan
+  server: 67.216.198.4
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_17"
+  type: vless
+  server: 144.202.123.69
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_17-T"
+  type: trojan
+  server: 144.202.123.69
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_18"
+  type: vless
+  server: 149.248.5.85
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_18-T"
+  type: trojan
+  server: 149.248.5.85
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_19"
+  type: vless
+  server: 149.28.89.69
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_19-T"
+  type: trojan
+  server: 149.28.89.69
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_20"
+  type: vless
+  server: 149.248.16.157
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_20-T"
+  type: trojan
+  server: 149.248.16.157
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_21"
+  type: vless
+  server: 45.32.79.120
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_21-T"
+  type: trojan
+  server: 45.32.79.120
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_22"
+  type: vless
+  server: 45.32.65.235
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_22-T"
+  type: trojan
+  server: 45.32.65.235
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_23"
+  type: vless
+  server: 45.76.74.16
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_23-T"
+  type: trojan
+  server: 45.76.74.16
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_24"
+  type: vless
+  server: 144.202.107.94
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_24-T"
+  type: trojan
+  server: 144.202.107.94
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_25"
+  type: vless
+  server: 149.28.92.56
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_25-T"
+  type: trojan
+  server: 149.28.92.56
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_26"
+  type: vless
+  server: 45.63.49.61
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_26-T"
+  type: trojan
+  server: 45.63.49.61
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_27"
+  type: vless
+  server: 45.32.73.12
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_27-T"
+  type: trojan
+  server: 45.32.73.12
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_28"
+  type: vless
+  server: 149.28.79.109
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_28-T"
+  type: trojan
+  server: 149.28.79.109
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_29"
   type: vless
   server: 45.76.172.125
   port: 443
@@ -1049,7 +1172,7 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_26-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_29-T"
   type: trojan
   server: 45.76.172.125
   port: 443
@@ -1070,9 +1193,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_27"
+- name: "齐哥优选-2026.11.28-02:13:59-1_30"
   type: vless
-  server: 141.98.41.28
+  server: 45.32.87.15
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1090,9 +1213,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_27-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_30-T"
   type: trojan
-  server: 141.98.41.28
+  server: 45.32.87.15
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1111,581 +1234,7 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_28"
-  type: vless
-  server: 205.186.76.141
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_28-T"
-  type: trojan
-  server: 205.186.76.141
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_29"
-  type: vless
-  server: 141.98.41.87
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_29-T"
-  type: trojan
-  server: 141.98.41.87
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_30"
-  type: vless
-  server: 141.98.41.54
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_30-T"
-  type: trojan
-  server: 141.98.41.54
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_31"
-  type: vless
-  server: 205.186.76.237
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_31-T"
-  type: trojan
-  server: 205.186.76.237
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_32"
-  type: vless
-  server: 205.186.76.227
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_32-T"
-  type: trojan
-  server: 205.186.76.227
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_33"
-  type: vless
-  server: 205.186.76.197
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_33-T"
-  type: trojan
-  server: 205.186.76.197
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_34"
-  type: vless
-  server: 141.98.41.73
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_34-T"
-  type: trojan
-  server: 141.98.41.73
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_35"
-  type: vless
-  server: 141.98.41.80
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_35-T"
-  type: trojan
-  server: 141.98.41.80
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_36"
-  type: vless
-  server: 141.98.41.104
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_36-T"
-  type: trojan
-  server: 141.98.41.104
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_37"
-  type: vless
-  server: 205.186.76.242
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_37-T"
-  type: trojan
-  server: 205.186.76.242
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_38"
-  type: vless
-  server: 155.138.203.229
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_38-T"
-  type: trojan
-  server: 155.138.203.229
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_39"
-  type: vless
-  server: 141.98.41.53
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_39-T"
-  type: trojan
-  server: 141.98.41.53
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_40"
-  type: vless
-  server: 141.98.41.21
-  port: 443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_40-T"
-  type: trojan
-  server: 141.98.41.21
-  port: 443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_41"
-  type: vless
-  server: 178.156.150.121
-  port: 8443
-  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_41-T"
-  type: trojan
-  server: 178.156.150.121
-  port: 8443
-  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
-  network: ws
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  alpn:
-  - http/1.1
-  servername: net.learnnce.ccwu.cc
-  sni: net.learnnce.ccwu.cc
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  ws-opts:
-    path: "/cfnext"
-    headers:
-      Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_42"
+- name: "齐哥优选-2026.11.28-02:13:59-1_31"
   type: vless
   server: 178.83.203.218
   port: 443
@@ -1705,7 +1254,7 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_42-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_31-T"
   type: trojan
   server: 178.83.203.218
   port: 443
@@ -1726,9 +1275,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_43"
+- name: "齐哥优选-2026.11.28-02:13:59-1_32"
   type: vless
-  server: 5.253.38.190
+  server: 45.32.93.88
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1746,9 +1295,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_43-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_32-T"
   type: trojan
-  server: 5.253.38.190
+  server: 45.32.93.88
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1767,10 +1316,10 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_44"
+- name: "齐哥优选-2026.11.28-02:13:59-1_33"
   type: vless
-  server: 108.165.191.3
-  port: 8443
+  server: 149.28.70.252
+  port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
   udp: true
@@ -1787,10 +1336,10 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_44-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_33-T"
   type: trojan
-  server: 108.165.191.3
-  port: 8443
+  server: 149.28.70.252
+  port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
   udp: true
@@ -1808,10 +1357,10 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_45"
+- name: "齐哥优选-2026.11.28-02:13:59-1_34"
   type: vless
-  server: 138.128.220.159
-  port: 8443
+  server: 45.63.49.182
+  port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
   udp: true
@@ -1828,10 +1377,10 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_45-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_34-T"
   type: trojan
-  server: 138.128.220.159
-  port: 8443
+  server: 45.63.49.182
+  port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
   udp: true
@@ -1849,7 +1398,48 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_46"
+- name: "齐哥优选-2026.11.28-02:13:59-1_35"
+  type: vless
+  server: 45.77.127.64
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_35-T"
+  type: trojan
+  server: 45.77.127.64
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_36"
   type: vless
   server: 66.42.99.221
   port: 443
@@ -1869,7 +1459,7 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_46-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_36-T"
   type: trojan
   server: 66.42.99.221
   port: 443
@@ -1890,9 +1480,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_47"
+- name: "齐哥优选-2026.11.28-02:13:59-1_37"
   type: vless
-  server: 144.225.130.144
+  server: 45.77.87.93
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1910,9 +1500,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_47-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_37-T"
   type: trojan
-  server: 144.225.130.144
+  server: 45.77.87.93
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1931,9 +1521,9 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_48"
+- name: "齐哥优选-2026.11.28-02:13:59-1_38"
   type: vless
-  server: 166.88.33.25
+  server: 168.143.108.38
   port: 443
   uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1951,9 +1541,501 @@ proxies:
     path: "/cfnext"
     headers:
       Host: net.learnnce.ccwu.cc
-- name: "齐哥优选-2026.11.27-19:42:19-2_48-T"
+- name: "齐哥优选-2026.11.28-02:13:59-1_38-T"
   type: trojan
-  server: 166.88.33.25
+  server: 168.143.108.38
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_39"
+  type: vless
+  server: 141.98.41.70
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_39-T"
+  type: trojan
+  server: 141.98.41.70
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_40"
+  type: vless
+  server: 149.28.71.115
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_40-T"
+  type: trojan
+  server: 149.28.71.115
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_41"
+  type: vless
+  server: 45.77.188.88
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_41-T"
+  type: trojan
+  server: 45.77.188.88
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_42"
+  type: vless
+  server: 45.32.92.53
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_42-T"
+  type: trojan
+  server: 45.32.92.53
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_43"
+  type: vless
+  server: 45.76.79.246
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_43-T"
+  type: trojan
+  server: 45.76.79.246
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_44"
+  type: vless
+  server: 179.253.254.98
+  port: 8443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_44-T"
+  type: trojan
+  server: 179.253.254.98
+  port: 8443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_45"
+  type: vless
+  server: 149.28.76.221
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_45-T"
+  type: trojan
+  server: 149.28.76.221
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_46"
+  type: vless
+  server: 149.248.5.223
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_46-T"
+  type: trojan
+  server: 149.248.5.223
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_47"
+  type: vless
+  server: 66.42.103.118
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_47-T"
+  type: trojan
+  server: 66.42.103.118
+  port: 443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_48"
+  type: vless
+  server: 45.76.79.201
+  port: 8443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_48-T"
+  type: trojan
+  server: 45.76.79.201
+  port: 8443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_49"
+  type: vless
+  server: 108.61.217.45
+  port: 8443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_49-T"
+  type: trojan
+  server: 108.61.217.45
+  port: 8443
+  password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  sni: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_50"
+  type: vless
+  server: 38.49.42.83
+  port: 443
+  uuid: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
+  network: ws
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  servername: net.learnnce.ccwu.cc
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  ws-opts:
+    path: "/cfnext"
+    headers:
+      Host: net.learnnce.ccwu.cc
+- name: "齐哥优选-2026.11.28-02:13:59-1_50-T"
+  type: trojan
+  server: 38.49.42.83
   port: 443
   password: 42ad1830-8e65-4a92-abaa-2a3f8a4d6669
   network: ws
@@ -1976,201 +2058,209 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - "齐哥优选-2026.11.27-19:42:19-2_1"
-  - "齐哥优选-2026.11.27-19:42:19-2_1-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_2"
-  - "齐哥优选-2026.11.27-19:42:19-2_2-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_3"
-  - "齐哥优选-2026.11.27-19:42:19-2_3-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_4"
-  - "齐哥优选-2026.11.27-19:42:19-2_4-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_5"
-  - "齐哥优选-2026.11.27-19:42:19-2_5-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_6"
-  - "齐哥优选-2026.11.27-19:42:19-2_6-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_7"
-  - "齐哥优选-2026.11.27-19:42:19-2_7-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_8"
-  - "齐哥优选-2026.11.27-19:42:19-2_8-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_9"
-  - "齐哥优选-2026.11.27-19:42:19-2_9-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_10"
-  - "齐哥优选-2026.11.27-19:42:19-2_10-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_11"
-  - "齐哥优选-2026.11.27-19:42:19-2_11-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_12"
-  - "齐哥优选-2026.11.27-19:42:19-2_12-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_13"
-  - "齐哥优选-2026.11.27-19:42:19-2_13-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_14"
-  - "齐哥优选-2026.11.27-19:42:19-2_14-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_15"
-  - "齐哥优选-2026.11.27-19:42:19-2_15-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_16"
-  - "齐哥优选-2026.11.27-19:42:19-2_16-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_17"
-  - "齐哥优选-2026.11.27-19:42:19-2_17-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_18"
-  - "齐哥优选-2026.11.27-19:42:19-2_18-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_19"
-  - "齐哥优选-2026.11.27-19:42:19-2_19-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_20"
-  - "齐哥优选-2026.11.27-19:42:19-2_20-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_21"
-  - "齐哥优选-2026.11.27-19:42:19-2_21-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_22"
-  - "齐哥优选-2026.11.27-19:42:19-2_22-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_23"
-  - "齐哥优选-2026.11.27-19:42:19-2_23-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_24"
-  - "齐哥优选-2026.11.27-19:42:19-2_24-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_25"
-  - "齐哥优选-2026.11.27-19:42:19-2_25-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_26"
-  - "齐哥优选-2026.11.27-19:42:19-2_26-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_27"
-  - "齐哥优选-2026.11.27-19:42:19-2_27-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_28"
-  - "齐哥优选-2026.11.27-19:42:19-2_28-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_29"
-  - "齐哥优选-2026.11.27-19:42:19-2_29-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_30"
-  - "齐哥优选-2026.11.27-19:42:19-2_30-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_31"
-  - "齐哥优选-2026.11.27-19:42:19-2_31-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_32"
-  - "齐哥优选-2026.11.27-19:42:19-2_32-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_33"
-  - "齐哥优选-2026.11.27-19:42:19-2_33-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_34"
-  - "齐哥优选-2026.11.27-19:42:19-2_34-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_35"
-  - "齐哥优选-2026.11.27-19:42:19-2_35-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_36"
-  - "齐哥优选-2026.11.27-19:42:19-2_36-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_37"
-  - "齐哥优选-2026.11.27-19:42:19-2_37-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_38"
-  - "齐哥优选-2026.11.27-19:42:19-2_38-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_39"
-  - "齐哥优选-2026.11.27-19:42:19-2_39-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_40"
-  - "齐哥优选-2026.11.27-19:42:19-2_40-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_41"
-  - "齐哥优选-2026.11.27-19:42:19-2_41-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_42"
-  - "齐哥优选-2026.11.27-19:42:19-2_42-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_43"
-  - "齐哥优选-2026.11.27-19:42:19-2_43-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_44"
-  - "齐哥优选-2026.11.27-19:42:19-2_44-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_45"
-  - "齐哥优选-2026.11.27-19:42:19-2_45-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_46"
-  - "齐哥优选-2026.11.27-19:42:19-2_46-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_47"
-  - "齐哥优选-2026.11.27-19:42:19-2_47-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_48"
-  - "齐哥优选-2026.11.27-19:42:19-2_48-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_1"
+  - "齐哥优选-2026.11.28-02:13:59-1_1-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_2"
+  - "齐哥优选-2026.11.28-02:13:59-1_2-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_3"
+  - "齐哥优选-2026.11.28-02:13:59-1_3-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_4"
+  - "齐哥优选-2026.11.28-02:13:59-1_4-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_5"
+  - "齐哥优选-2026.11.28-02:13:59-1_5-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_6"
+  - "齐哥优选-2026.11.28-02:13:59-1_6-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_7"
+  - "齐哥优选-2026.11.28-02:13:59-1_7-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_8"
+  - "齐哥优选-2026.11.28-02:13:59-1_8-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_9"
+  - "齐哥优选-2026.11.28-02:13:59-1_9-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_10"
+  - "齐哥优选-2026.11.28-02:13:59-1_10-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_11"
+  - "齐哥优选-2026.11.28-02:13:59-1_11-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_12"
+  - "齐哥优选-2026.11.28-02:13:59-1_12-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_13"
+  - "齐哥优选-2026.11.28-02:13:59-1_13-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_14"
+  - "齐哥优选-2026.11.28-02:13:59-1_14-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_15"
+  - "齐哥优选-2026.11.28-02:13:59-1_15-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_16"
+  - "齐哥优选-2026.11.28-02:13:59-1_16-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_17"
+  - "齐哥优选-2026.11.28-02:13:59-1_17-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_18"
+  - "齐哥优选-2026.11.28-02:13:59-1_18-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_19"
+  - "齐哥优选-2026.11.28-02:13:59-1_19-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_20"
+  - "齐哥优选-2026.11.28-02:13:59-1_20-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_21"
+  - "齐哥优选-2026.11.28-02:13:59-1_21-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_22"
+  - "齐哥优选-2026.11.28-02:13:59-1_22-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_23"
+  - "齐哥优选-2026.11.28-02:13:59-1_23-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_24"
+  - "齐哥优选-2026.11.28-02:13:59-1_24-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_25"
+  - "齐哥优选-2026.11.28-02:13:59-1_25-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_26"
+  - "齐哥优选-2026.11.28-02:13:59-1_26-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_27"
+  - "齐哥优选-2026.11.28-02:13:59-1_27-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_28"
+  - "齐哥优选-2026.11.28-02:13:59-1_28-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_29"
+  - "齐哥优选-2026.11.28-02:13:59-1_29-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_30"
+  - "齐哥优选-2026.11.28-02:13:59-1_30-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_31"
+  - "齐哥优选-2026.11.28-02:13:59-1_31-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_32"
+  - "齐哥优选-2026.11.28-02:13:59-1_32-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_33"
+  - "齐哥优选-2026.11.28-02:13:59-1_33-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_34"
+  - "齐哥优选-2026.11.28-02:13:59-1_34-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_35"
+  - "齐哥优选-2026.11.28-02:13:59-1_35-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_36"
+  - "齐哥优选-2026.11.28-02:13:59-1_36-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_37"
+  - "齐哥优选-2026.11.28-02:13:59-1_37-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_38"
+  - "齐哥优选-2026.11.28-02:13:59-1_38-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_39"
+  - "齐哥优选-2026.11.28-02:13:59-1_39-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_40"
+  - "齐哥优选-2026.11.28-02:13:59-1_40-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_41"
+  - "齐哥优选-2026.11.28-02:13:59-1_41-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_42"
+  - "齐哥优选-2026.11.28-02:13:59-1_42-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_43"
+  - "齐哥优选-2026.11.28-02:13:59-1_43-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_44"
+  - "齐哥优选-2026.11.28-02:13:59-1_44-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_45"
+  - "齐哥优选-2026.11.28-02:13:59-1_45-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_46"
+  - "齐哥优选-2026.11.28-02:13:59-1_46-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_47"
+  - "齐哥优选-2026.11.28-02:13:59-1_47-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_48"
+  - "齐哥优选-2026.11.28-02:13:59-1_48-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_49"
+  - "齐哥优选-2026.11.28-02:13:59-1_49-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_50"
+  - "齐哥优选-2026.11.28-02:13:59-1_50-T"
 - name: 自动优选
   type: url-test
   proxies:
-  - "齐哥优选-2026.11.27-19:42:19-2_1"
-  - "齐哥优选-2026.11.27-19:42:19-2_1-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_2"
-  - "齐哥优选-2026.11.27-19:42:19-2_2-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_3"
-  - "齐哥优选-2026.11.27-19:42:19-2_3-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_4"
-  - "齐哥优选-2026.11.27-19:42:19-2_4-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_5"
-  - "齐哥优选-2026.11.27-19:42:19-2_5-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_6"
-  - "齐哥优选-2026.11.27-19:42:19-2_6-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_7"
-  - "齐哥优选-2026.11.27-19:42:19-2_7-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_8"
-  - "齐哥优选-2026.11.27-19:42:19-2_8-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_9"
-  - "齐哥优选-2026.11.27-19:42:19-2_9-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_10"
-  - "齐哥优选-2026.11.27-19:42:19-2_10-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_11"
-  - "齐哥优选-2026.11.27-19:42:19-2_11-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_12"
-  - "齐哥优选-2026.11.27-19:42:19-2_12-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_13"
-  - "齐哥优选-2026.11.27-19:42:19-2_13-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_14"
-  - "齐哥优选-2026.11.27-19:42:19-2_14-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_15"
-  - "齐哥优选-2026.11.27-19:42:19-2_15-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_16"
-  - "齐哥优选-2026.11.27-19:42:19-2_16-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_17"
-  - "齐哥优选-2026.11.27-19:42:19-2_17-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_18"
-  - "齐哥优选-2026.11.27-19:42:19-2_18-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_19"
-  - "齐哥优选-2026.11.27-19:42:19-2_19-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_20"
-  - "齐哥优选-2026.11.27-19:42:19-2_20-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_21"
-  - "齐哥优选-2026.11.27-19:42:19-2_21-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_22"
-  - "齐哥优选-2026.11.27-19:42:19-2_22-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_23"
-  - "齐哥优选-2026.11.27-19:42:19-2_23-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_24"
-  - "齐哥优选-2026.11.27-19:42:19-2_24-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_25"
-  - "齐哥优选-2026.11.27-19:42:19-2_25-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_26"
-  - "齐哥优选-2026.11.27-19:42:19-2_26-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_27"
-  - "齐哥优选-2026.11.27-19:42:19-2_27-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_28"
-  - "齐哥优选-2026.11.27-19:42:19-2_28-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_29"
-  - "齐哥优选-2026.11.27-19:42:19-2_29-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_30"
-  - "齐哥优选-2026.11.27-19:42:19-2_30-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_31"
-  - "齐哥优选-2026.11.27-19:42:19-2_31-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_32"
-  - "齐哥优选-2026.11.27-19:42:19-2_32-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_33"
-  - "齐哥优选-2026.11.27-19:42:19-2_33-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_34"
-  - "齐哥优选-2026.11.27-19:42:19-2_34-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_35"
-  - "齐哥优选-2026.11.27-19:42:19-2_35-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_36"
-  - "齐哥优选-2026.11.27-19:42:19-2_36-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_37"
-  - "齐哥优选-2026.11.27-19:42:19-2_37-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_38"
-  - "齐哥优选-2026.11.27-19:42:19-2_38-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_39"
-  - "齐哥优选-2026.11.27-19:42:19-2_39-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_40"
-  - "齐哥优选-2026.11.27-19:42:19-2_40-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_41"
-  - "齐哥优选-2026.11.27-19:42:19-2_41-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_42"
-  - "齐哥优选-2026.11.27-19:42:19-2_42-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_43"
-  - "齐哥优选-2026.11.27-19:42:19-2_43-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_44"
-  - "齐哥优选-2026.11.27-19:42:19-2_44-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_45"
-  - "齐哥优选-2026.11.27-19:42:19-2_45-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_46"
-  - "齐哥优选-2026.11.27-19:42:19-2_46-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_47"
-  - "齐哥优选-2026.11.27-19:42:19-2_47-T"
-  - "齐哥优选-2026.11.27-19:42:19-2_48"
-  - "齐哥优选-2026.11.27-19:42:19-2_48-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_1"
+  - "齐哥优选-2026.11.28-02:13:59-1_1-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_2"
+  - "齐哥优选-2026.11.28-02:13:59-1_2-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_3"
+  - "齐哥优选-2026.11.28-02:13:59-1_3-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_4"
+  - "齐哥优选-2026.11.28-02:13:59-1_4-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_5"
+  - "齐哥优选-2026.11.28-02:13:59-1_5-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_6"
+  - "齐哥优选-2026.11.28-02:13:59-1_6-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_7"
+  - "齐哥优选-2026.11.28-02:13:59-1_7-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_8"
+  - "齐哥优选-2026.11.28-02:13:59-1_8-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_9"
+  - "齐哥优选-2026.11.28-02:13:59-1_9-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_10"
+  - "齐哥优选-2026.11.28-02:13:59-1_10-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_11"
+  - "齐哥优选-2026.11.28-02:13:59-1_11-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_12"
+  - "齐哥优选-2026.11.28-02:13:59-1_12-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_13"
+  - "齐哥优选-2026.11.28-02:13:59-1_13-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_14"
+  - "齐哥优选-2026.11.28-02:13:59-1_14-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_15"
+  - "齐哥优选-2026.11.28-02:13:59-1_15-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_16"
+  - "齐哥优选-2026.11.28-02:13:59-1_16-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_17"
+  - "齐哥优选-2026.11.28-02:13:59-1_17-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_18"
+  - "齐哥优选-2026.11.28-02:13:59-1_18-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_19"
+  - "齐哥优选-2026.11.28-02:13:59-1_19-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_20"
+  - "齐哥优选-2026.11.28-02:13:59-1_20-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_21"
+  - "齐哥优选-2026.11.28-02:13:59-1_21-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_22"
+  - "齐哥优选-2026.11.28-02:13:59-1_22-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_23"
+  - "齐哥优选-2026.11.28-02:13:59-1_23-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_24"
+  - "齐哥优选-2026.11.28-02:13:59-1_24-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_25"
+  - "齐哥优选-2026.11.28-02:13:59-1_25-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_26"
+  - "齐哥优选-2026.11.28-02:13:59-1_26-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_27"
+  - "齐哥优选-2026.11.28-02:13:59-1_27-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_28"
+  - "齐哥优选-2026.11.28-02:13:59-1_28-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_29"
+  - "齐哥优选-2026.11.28-02:13:59-1_29-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_30"
+  - "齐哥优选-2026.11.28-02:13:59-1_30-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_31"
+  - "齐哥优选-2026.11.28-02:13:59-1_31-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_32"
+  - "齐哥优选-2026.11.28-02:13:59-1_32-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_33"
+  - "齐哥优选-2026.11.28-02:13:59-1_33-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_34"
+  - "齐哥优选-2026.11.28-02:13:59-1_34-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_35"
+  - "齐哥优选-2026.11.28-02:13:59-1_35-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_36"
+  - "齐哥优选-2026.11.28-02:13:59-1_36-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_37"
+  - "齐哥优选-2026.11.28-02:13:59-1_37-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_38"
+  - "齐哥优选-2026.11.28-02:13:59-1_38-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_39"
+  - "齐哥优选-2026.11.28-02:13:59-1_39-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_40"
+  - "齐哥优选-2026.11.28-02:13:59-1_40-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_41"
+  - "齐哥优选-2026.11.28-02:13:59-1_41-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_42"
+  - "齐哥优选-2026.11.28-02:13:59-1_42-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_43"
+  - "齐哥优选-2026.11.28-02:13:59-1_43-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_44"
+  - "齐哥优选-2026.11.28-02:13:59-1_44-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_45"
+  - "齐哥优选-2026.11.28-02:13:59-1_45-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_46"
+  - "齐哥优选-2026.11.28-02:13:59-1_46-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_47"
+  - "齐哥优选-2026.11.28-02:13:59-1_47-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_48"
+  - "齐哥优选-2026.11.28-02:13:59-1_48-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_49"
+  - "齐哥优选-2026.11.28-02:13:59-1_49-T"
+  - "齐哥优选-2026.11.28-02:13:59-1_50"
+  - "齐哥优选-2026.11.28-02:13:59-1_50-T"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 rules:
